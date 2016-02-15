@@ -1,0 +1,33 @@
+.article-inner{
+   margin-top: 60px;
+   margin-bottom: 50px;
+   .article-search-bar{
+      margin: 25px 0px;
+   }
+   .shortcut-links{
+      text-align: center;
+      .year-link{
+         font-size: 16px;
+      }
+      a{
+         margin: 0px 10px;
+      }
+   }
+   .article-box{
+      margin-top: 10px;
+      .article-link{
+         margin-top: 25px;
+         margin-bottom: 25px;
+         p{
+            font-size: 14px;
+            text-transform: uppercase;
+            line-height: normal;
+         }
+         a{
+            line-height: normal;
+            font-size: 20px;
+            font-weight: 500;
+         }
+      }
+   }
+}

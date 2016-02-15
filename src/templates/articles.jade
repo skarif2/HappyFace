@@ -1,0 +1,78 @@
+doctype html
+html
+   head
+      include ./partials/head.jade  
+   body
+      header.testimonial-header
+         include ./partials/navbar.jade
+         .testimonial-header-text
+            h1 Web Development Blog
+            p Latest Articles
+      section
+         .container
+            .row
+               .col-sm-10.col-md-8.col-sm-offset-1.col-md-offset-2
+                  .article-inner
+                     .row.article-search-bar
+                        .col-lg-6.col-lg-offset-3
+                           .input-group
+                              input.form-control(type='text', placeholder='Search for...')
+                              span.input-group-btn
+                                 button.btn.btn-default(type='button') Go!
+                     .row.shortcut-links
+                        p.test-link
+                           a(href='#') Code Snippets
+                           a(href='#') Code Snippets
+                           a(href='#') Code Snippets
+                           a(href='#') Code Snippets
+                           a(href='#') Code Snippets
+                           a(href='#') Code Snippets
+                     .row.shortcut-links
+                        p.year-link
+                           a(href='#') 2016
+                           a(href='#') 2015
+                           a(href='#') 2014
+                           a(href='#') 2013
+                           a(href='#') 2012
+                           a(href='#') 2011
+                     .row.article-box
+                        .row.article-link
+                           p 24th aug 2015
+                           a(href='') Announcing Sequence.js Version 2
+                        .row.article-link
+                           p 24th aug 2015
+                           a(href='') Announcing Sequence.js Version 2
+                        .row.article-link
+                           p 24th aug 2015
+                           a(href='') Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing El
+                        .row.article-link
+                           p 24th aug 2015
+                           a(href='') Announcing Sequence.js Version 2
+                        .row.article-link
+                           p 24th aug 2015
+                           a(href='') Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing El
+                        .row.article-link
+                           p 24th aug 2015
+                           a(href='') Announcing Sequence.js Version 2
+                        .row.article-link
+                           p 24th aug 2015
+                           a(href='') Announcing Sequence.js Version 2
+                        .row.article-link
+                           p 24th aug 2015
+                           a(href='') Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing El
+                        .row.article-link
+                           p 24th aug 2015
+                           a(href='') Announcing Sequence.js Version 2
+                        .row.article-link
+                           p 24th aug 2015
+                           a(href='') Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing El
+                        .row.article-link
+                           p 24th aug 2015
+                           a(href='') Announcing Sequence.js Version 2
+                        .row.article-link
+                           p 24th aug 2015
+                           a(href='') Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing El
+      include ./partials/footer.jade
+      
+      //Dont delete this line of code.
+      script(src='js/main.js')

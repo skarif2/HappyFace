@@ -1,0 +1,38 @@
+.testimonial-header{
+   background-color: #3598d1;
+   height:250px;
+   text-align: center;
+    .testimonial-header-text{
+      margin-top: 50px;
+      color: white;
+      p{
+         margin-top: 10px;
+         font-size: 18px;
+         letter-spacing: .05em;
+      }
+   }
+}
+.testimonial-inner{
+	margin-top: 100px;
+   margin-bottom: 80px;
+   .testimonial-box{
+      margin-top: 25px;
+      padding: 30px 40px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      div{
+         margin: 5px auto 15px;
+         height: 40px;
+         width: 40px;
+      }
+      p{
+         text-align: justify;
+      }
+      h5{
+         text-align: right;
+         span{
+            color: blueviolet;
+         }
+      }
+   }	
+}

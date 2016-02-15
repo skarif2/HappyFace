@@ -5,6 +5,7 @@ footer{
    .about-link{
       background-color: #3598d1;
       text-align: center;
+      text-transform: uppercase;
       img{
          margin-left: 10px;
       }
@@ -12,6 +13,10 @@ footer{
    .main-footer{
       margin-top: 80px;
       margin-bottom: 100px;
+      span{
+         background: url(../files/img/remixed.jpg) center center;
+         background-repeat: no-repeat;
+      }
    }
    .copyright{
       text-align: center;

@@ -1,8 +1,8 @@
-.testimonials-inner{
+.testimoni-inner{
 	margin-top: 100px;
    margin-bottom: 80px;
 	div{
-		margin: 25px auto;
+		margin: 45px auto 15px;
 		height: 40px;
 		width: 40px;
 	}
@@ -11,5 +11,8 @@
 	}
 	h5{
 		text-align: right;
+      span{
+         color: blueviolet;
+      }
 	}
 }
