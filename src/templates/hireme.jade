@@ -1,0 +1,42 @@
+doctype html
+html
+   head
+      include ./partials/head.jade  
+   body
+      header.sub-header
+         include ./partials/navbar.jade
+         .sub-header-text
+            h1 Hire Me
+            p Enqure about hiring me
+      section
+         .container
+            .row
+               .col-sm-10.col-md-8.col-lg-6.col-sm-offset-1.col-md-offset-2.col-lg-offset-3
+                  .about-inner
+                     .row
+                        p.
+                           Plesse fill out the form below to enquire about hiring me. To learn about how I work and the value I can bring to your project, please visit <a href='../about.html'>About</a> or to see what I'vs produced for other clients, view my <a href='#'>Protfolio</a>.
+                        br
+                        p General messages may be sent via the <a href=''>contact form</a>.
+                     .row
+                        h4 About You
+                        .input-group.col-xs-12
+                           p Your Name
+                           input.form-control(type='text', placeholder='eg. Sk Arif', required, autofocus)
+                        br
+                        .input-group.col-xs-12
+                           p Email Address
+                           input.form-control(type='email', placeholder='eg. email@gmail.com', required)
+                        br
+                        h4 Contack Method
+                        .input-group.col-xs-12
+                           p Telephone number or Skype/Google Hangouts username
+                           input.form-control(type='text', placeholder='eg. +88(0)1683813121')
+                        br   
+                        .input-group.col-xs-12.col-md-6
+                           p Your Website
+                           input.form-control(type='text', placeholder='eg. cosmos.io')
+                        
+                        .input-group.col-xs-12.col-md-6
+                           p How did you hear about me?
+                           input.form-control(type='text', placeholder='eg. Google, Twitter, referred by..., etc')
