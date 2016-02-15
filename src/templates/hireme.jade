@@ -12,7 +12,7 @@ html
          .container
             .row
                .col-sm-10.col-md-8.col-lg-6.col-sm-offset-1.col-md-offset-2.col-lg-offset-3
-                  .about-inner
+                  .hireme-inner
                      .row
                         p.
                            Plesse fill out the form below to enquire about hiring me. To learn about how I work and the value I can bring to your project, please visit <a href='../about.html'>About</a> or to see what I'vs produced for other clients, view my <a href='#'>Protfolio</a>.
@@ -22,21 +22,54 @@ html
                         h4 About You
                         .input-group.col-xs-12
                            p Your Name
-                           input.form-control(type='text', placeholder='eg. Sk Arif', required, autofocus)
+                           input.form-control(type='text', placeholder='eg. Sk Arif')
                         br
                         .input-group.col-xs-12
                            p Email Address
                            input.form-control(type='email', placeholder='eg. email@gmail.com', required)
                         br
+                     .row
                         h4 Contack Method
                         .input-group.col-xs-12
                            p Telephone number or Skype/Google Hangouts username
                            input.form-control(type='text', placeholder='eg. +88(0)1683813121')
-                        br   
-                        .input-group.col-xs-12.col-md-6
-                           p Your Website
-                           input.form-control(type='text', placeholder='eg. cosmos.io')
-                        
-                        .input-group.col-xs-12.col-md-6
-                           p How did you hear about me?
-                           input.form-control(type='text', placeholder='eg. Google, Twitter, referred by..., etc')
+                        br
+                        .row
+                           .col-lg-6.col-xs-12
+                              .input-group.col-xs-12
+                                 p Your website
+                                 input.form-control(type='text', placeholder='eg. happyface.io')
+                           .col-lg-6.col-xs-12
+                              .input-group.col-xs-12
+                                 p How did you hear about me?
+                                 input.form-control(type='text', placeholder='eg. Google, Twitter, referred by..., etc')
+                              br
+                     .row
+                        h4 Project Details
+                        p Please specify a budget and ideal start date. This helps me determine the best solution for your circumstances.
+                        .row
+                           .col-lg-6.col-xs-12
+                              .input-group.col-xs-12
+                                 p Your Budget
+                                 input.form-control(type='text', placeholder='eg. $4500')
+                           .col-lg-6.col-xs-12
+                              .input-group.col-xs-12
+                                 p Your idal start date
+                                 input.form-control(type='text', placeholder='eg. March-2015')
+                     .row
+                        h4 Project Description
+                        p Please briefly descriobe your project, what you aim to achieve, what you'd like me to do, and link to any appropriate materials(such as PSD's abailable via Dropbox or Google Drive).
+                        .input-group.col-xs-12
+                           textarea.form-control(rows='6', placeholder='Description')
+                     .row
+                        .checkbox
+                           label
+                              input(type='checkbox', value='')
+                              |     Send me news, updates, and offers form Happy Face in the future
+                        p 
+                           i I promise to keep your details private and send emails only very occasionally. You may unsubscribe at any time.
+                        button.btn.btn-primary.btn-lg.submit-button(type='submit') Submit
+      include ./partials/footer.jade
+      
+      //Dont delete this line of code.
+      script(src='js/main.js')
