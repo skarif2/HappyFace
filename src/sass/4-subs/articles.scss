@@ -1,3 +1,17 @@
+.sub-header{
+   background-color: #3598d1;
+   height:250px;
+   text-align: center;
+    .sub-header-text{
+      margin-top: 50px;
+      color: white;
+      p{
+         margin-top: 10px;
+         font-size: 18px;
+         letter-spacing: .05em;
+      }
+   }
+}
 .article-inner{
    margin-top: 60px;
    margin-bottom: 50px;
