@@ -1,4 +1,11 @@
-
+@mixin iconlink($url){
+   height: 50px;
+   width: 50px;
+   background: url($url) center center;
+   background-repeat: no-repeat;
+   margin-right: 15px;
+   border-radius: 50%;
+}
 footer{
    background-color: #222222;
    color: aliceblue;
@@ -13,10 +20,23 @@ footer{
    .main-footer{
       margin-top: 80px;
       margin-bottom: 100px;
-      span{
-         background: url(../files/img/remixed.jpg) center center;
+      #myimage{
+         height: 70px;
+         width: 70px;
+         background: url('../files/img/remixed.jpg') center center;
          background-repeat: no-repeat;
+         margin-right: 20px;
+         border: 5px solid black;
       }
+      #icon1{
+         @include iconlink('../files/img/remixed.jpg');
+      }
+      .nav-link{
+         font-size: 18px;
+         text-transform: uppercase;
+         margin-bottom: -2px;
+      }
+      
    }
    .copyright{
       text-align: center;
