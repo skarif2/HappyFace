@@ -33,4 +33,29 @@
    #work-9{
       @include imgbgroundcolor('../files/img/cfc.jpg', #3d8d94);
    }
+   .work-item{
+      position: relative;
+      .portfolio-box-caption{
+         visibility: hidden;
+         position: absolute;
+         bottom: 0;
+         width: 100%;
+         text-align: center ; 
+         background-color: yellow;
+         color: black;
+         .portfolio-box-caption-content{
+            margin: 5px auto;
+            a{
+               color: black;
+               margin: 0 20px;
+            }
+         } 
+      }
+      &:hover{
+         .portfolio-box-caption{
+            visibility: visible;
+         }
+      }
+   }
+   
 }

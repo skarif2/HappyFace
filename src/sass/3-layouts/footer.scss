@@ -13,13 +13,16 @@ footer{
       background-color: #3598d1;
       text-align: center;
       text-transform: uppercase;
-      img{
-         margin-left: 10px;
+      a{
+         color: aliceblue;
+         &:hover{
+            text-decoration: none;
+         }
       }
    }
    .main-footer{
-      margin-top: 80px;
-      margin-bottom: 100px;
+      margin-top: 50px;
+      margin-bottom: 70px;
       #myimage{
          height: 70px;
          width: 70px;
