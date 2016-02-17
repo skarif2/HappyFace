@@ -1,4 +1,26 @@
+@mixin toolsimg($url){
+   height: 70px;
+   width: 70px;
+   background: url($url) center center;
+   background-repeat: no-repeat;
+   margin: 15px;
+}
 .about-inner{
    margin-top: 60px;
    margin-bottom: 70px;
+}
+.tools-image{
+   text-align: center;
+   float: left;
+   #tools-image1{      
+      @include toolsimg('../files/img/socialaxis.png');
+   }
+}
+#myaboutimage{
+   height: 70px;
+   width: 70px;
+   background: url('../files/img/remixed.jpg') center center;
+   background-repeat: no-repeat;
+   margin-right: 20px;
+   border: 5px solid black;
 }
